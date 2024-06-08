@@ -9,4 +9,3 @@ def test__mask_payment_info(operations_instance):
     assert operations_instance.mask_payment_info(
         operations_instance.to
     ) == "XXXX XX** **** XXXX"
-

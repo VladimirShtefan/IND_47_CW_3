@@ -17,4 +17,3 @@ def test__load_operations_instances(operations_json):
     assert isinstance(operations[0], Operation)
     assert operations[0].date == "2019-08-26T10:50:58.294041"
     assert operations[0].from_ == ""
-

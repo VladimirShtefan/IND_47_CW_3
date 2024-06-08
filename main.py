@@ -1,5 +1,10 @@
 from settings import OPERATIONS_PATH, COUNT_OPERATIONS
-from src.utils import load_operations, load_operations_instances, get_executed_operations, sort_operations_by_date
+from src.utils import (
+    load_operations,
+    load_operations_instances,
+    get_executed_operations,
+    sort_operations_by_date
+)
 
 
 def main():
