@@ -37,7 +37,7 @@ def load_operations_instances(operations: list[dict]) -> list[Operation]:
 
 def get_executed_operations(operations: list[Operation]) -> list[Operation]:
     """
-
+    Докстринга
     :param operations:
     :return:
     """
